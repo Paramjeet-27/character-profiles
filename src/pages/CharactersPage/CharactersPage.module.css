@@ -1,0 +1,44 @@
+.charactersContainers {
+  width: 98%;
+  margin: auto;
+  padding: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagination {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar {
+  margin-right: 1rem;
+  width: 20%;
+}
+
+.searchSection,
+.filterSection {
+  width: 98%;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+}
+
+.filterText {
+  font-size: 14pt;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.filters {
+  font-size: 12pt;
+  padding: 0.5rem;
+  margin: auto 1rem;
+}
+
+.clearFilterBtn {
+  margin: auto 2rem;
+}

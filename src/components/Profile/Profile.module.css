@@ -1,0 +1,142 @@
+/* For Desktop view */
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .avatar {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 150pt;
+    height: 150pt;
+    margin: auto;
+    margin: 5pt auto;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+  }
+  .characterName {
+    text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    width: 95%;
+    margin: auto;
+  }
+  .characterDetails {
+    padding: 0.5rem;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16pt;
+  }
+  .characterLocation {
+    width: 95%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .originLocation,
+  .currentLocation {
+    width: 45%;
+    padding: 10pt;
+    border-radius: 10pt;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+      rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  .episodes {
+    width: 95%;
+    margin: auto;
+  }
+  .episodeList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: justify;
+  }
+  span.episodesDisplay {
+    border: solid 1px black;
+    margin: 5pt 5pt;
+    border-radius: 2rem 2rem;
+    padding: 0.25rem 0.75rem;
+    transition: 1s;
+  }
+  span:hover {
+    border: none;
+    background-color: rgb(201, 201, 201);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  h5 {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .backButton {
+    width: 98%;
+    display: flex;
+    flex-flow: row-reverse;
+  }
+}
+/* For Mobile View */
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .avatar {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 100pt;
+    height: 100pt;
+    margin: 5pt auto;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+  }
+  .characterName {
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+  }
+  .characterDetails {
+    padding: 0.5rem;
+    width: 95%;
+    margin: auto;
+  }
+  .characterLocation {
+    display: flex;
+  }
+  .originLocation {
+    width: 50%;
+  }
+  .currentLocation {
+    width: 50%;
+  }
+  .episodeList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  span {
+    margin: 2pt 5pt;
+    border-radius: 2rem 2rem;
+    padding: 0.25rem 0.75rem;
+  }
+  h5 {
+    font-weight: bold;
+    text-align: center;
+  }
+  .backButton {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+  }
+}

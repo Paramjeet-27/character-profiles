@@ -1,0 +1,127 @@
+/* For Desktop View */
+@media screen and (min-width: 600px) {
+  .card {
+    /* border: solid 2px black; */
+    background-color: rgb(239, 239, 239);
+    border-radius: 10px;
+    width: 32%;
+    margin: 0.5rem;
+    display: flex;
+    transition: 0.5s;
+  }
+  .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .avatar {
+    /* border: solid 2px blue; */
+    border-radius: 10px 0px 0px 10px;
+    width: 60%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .avatar:hover {
+    background-size: 160%;
+  }
+
+  .descriptionBox {
+    /* border: solid 2px green; */
+    border-radius: 0px 10px 10px 0px;
+    width: 100%;
+    margin: auto;
+    padding: 1%;
+  }
+
+  .heading {
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .description {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .cardDescription {
+    /* border: solid 2px red; */
+    margin: 0.5pt;
+  }
+
+  .species {
+    margin-top: -5pt;
+    font-weight: lighter;
+    font-style: italic;
+  }
+
+  .detailsButton {
+    /* border: solid 3px violet; */
+    margin-top: 15pt;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+/* For Mobile View */
+@media screen and (max-width: 600px) {
+  .card {
+    /* border: solid 2px red; */
+    background-color: rgb(202, 255, 202);
+    width: 70%;
+    margin: 0.5rem auto;
+    border-radius: 10pt;
+  }
+  .avatar {
+    /* border: solid 1px blue; */
+    border-radius: 10pt 10pt 0pt 0pt;
+    height: 12rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .descriptionBox {
+    /* border: solid 1px green; */
+    width: 90%;
+    margin: auto;
+  }
+
+  .heading {
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .description {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .cardDescription {
+    /* border: solid 2px red; */
+    margin: 0.5pt;
+  }
+
+  .species {
+    margin-top: -5pt;
+    font-weight: lighter;
+    font-style: italic;
+  }
+
+  .detailsButton {
+    /* border: solid 3px violet; */
+    margin-top: 15pt;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+/* .card {
+  border: solid 2px black;
+  padding: 5pt;
+  margin: auto;
+}
+.cardDescription {
+  border: solid 2px red;
+  margin: 0.5pt;
+} */
